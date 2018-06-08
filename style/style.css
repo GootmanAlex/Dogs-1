@@ -1,0 +1,525 @@
+
+
+/*------------------------------------------>>>Контенеры, фоны------------НАЧАЛО */
+
+
+/*---------------------------------------Логотип и меню навигации ---Начало---*/
+
+
+body {
+	background-color: #ede9e0;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+ul li.nav_menu {
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a.nav_link {
+	text-decoration: none;
+	/*padding: 5px 8px;*/
+	color: #000;
+}
+
+nav.navigation {
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	/*padding: 13px 34px 0px 232px;*/
+}
+
+a.phone {
+	display: inline-block;
+	list-style: none;
+	/*padding: 11px 8px 11px 4px;*/
+	text-decoration: none;
+	color: #510fad;
+}
+
+.logo_dog {
+	float: left;
+	/*margin: 10px auto;*/
+	/*padding: 10px 10px 10px 10px;*/
+}
+.logo-menu{
+	width: 940px;
+	margin: 0 auto; 
+}
+
+/*---------------------------------------Логотип и меню навигации ---Конец---*/
+
+.promo_foto {
+	background-image: url(../img/dog.png);
+	width: 100px;
+  	height: 100px;
+ 	 margin: 10px;
+  	display: inline-block;
+}
+
+.promo{
+	width: 940px;
+	margin: 0 auto; 
+}
+
+/*---------------------------------------H1 and p Питомник ---Началоа---*/
+
+h1 {
+	padding-left: 320px;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+}
+
+.promo_slogan {
+	padding-left: 320px;
+}
+
+
+/*---------------------------------------H1 and p Питомник ---Конец---*/
+
+
+/* --------------------О ПИТОМНИКЕ --------------------НАЧАЛО---------*/
+
+.about_pets{
+	padding-top: 250px;
+}
+
+.ridge::before{
+	content: ""; 
+	background-image: url(..//img/backround_shape1.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.ridge::after {
+	content: "";
+	background-image: url(..//img/backround_shape2.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.container_shape {
+	width: 1024px;
+	background-color: #510fad;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container_wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.about_row {
+	font-size: 0;
+	/*margin-top: 17px;*/
+}
+
+.about_wrapper {
+	font-size: 0;
+	width: 800px;
+}
+
+.shape_and_slogan {
+	width: 350px;
+	display: inline-block;
+	text-align: left;
+	/*margin-left: 16%;*/
+	/*padding-top: 14%;*/
+}
+
+h2 {
+	color: white;
+}
+
+.promo_img {
+	float: left;
+	width: 470px;
+	/*padding-left: 10px;*/
+}
+
+.text_video {
+	float: right;
+	text-align: left;
+	/*padding: 55px 11px;*/
+}
+
+.advantages_text {
+	/*padding: 0px 0px 5px 8px;*/
+}
+
+.video_walk {
+	/*padding: 0px 25px;*/
+}
+
+.promo_img_dog {
+	/*margin: 0;
+	padding: 0;*/
+	display: line;
+}
+
+
+/*
+.name_shape, .about_pets_slogan, .advantages, .promo_img_dog, .video_walk{
+	display: block;
+  	
+}
+
+.promo_img_dog{
+	/*margin: 25px 0 0-20px;*/
+
+
+}
+
+/*
+.advantages{
+	/*margin: -310px 0px 55px 505px;*/
+
+/*text-align: left;
+}
+
+.video_walk{
+	/*margin: 0px -240px 0px 0px;*/
+
+}
+
+/*.advantages_text{
+	padding: 5px 5px 5px 5px;
+}
+
+.shape_and_slogan{
+	text-align: left;
+	/*padding: 200px 5px 0px 400px;*/
+
+}
+.name_shape {
+	color: white;
+}
+
+/* --------------------О ПИТОМНИКЕ --------------------Конец----------------------*/
+
+/* --------------------НАШИ ПОРОДЫ (section class="our_breeds")-НАЧАЛО--------------*/
+
+.breeds{
+	width: 940px;
+	margin: 0 auto; 
+}
+
+.breeds_heading {
+	/*margin-left: 40%;*/
+	color: black;
+}
+.container_card_one {
+	width: 50%;
+	float: left;
+	/*margin-top: 49px;*/
+}
+.container_card_two {
+	width: 50%;
+	float: left;
+	/*margin-top: 49px;*/
+}
+.dogs_img {
+	border-radius: 70px;
+	float: left;
+}
+.veiv_dog_text {
+	display: inline-block;
+	/*padding-left: 22px;*/
+}
+.view_dog {
+	/*padding: 5px 5px 5px 45px;*/
+}
+.view_dog1 {
+	float: left;
+}
+.view_dog2 {
+	float: right;
+}
+.icon {
+	background: url(../img/css_sprites.png) no-repeat 0 0;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+.blue-arrow {
+	background-position: -107px -47px;
+	margin-left: 10px;
+}
+.look_dogs {
+	/*padding-left: 163px;*/
+}
+
+/* --------------------НАШИ ПОРОДЫ (section class="our_breeds")-КОНЕЦ--------------*/
+
+/* --------------------ОЗЫВЫ (section class="our_breeds")-НАЧАЛО--------------*/
+.row_reviews {
+	margin: 0 auto;
+	width: 940px;
+}
+.reviews_title {
+	/*margin-left: 75px;
+	padding-top: 145px;*/
+	text-align: center;
+	color: black;
+}
+.reviews_text {
+	display: block;
+	width: 50%;
+	float: left;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+.images_photo {
+	display: block;
+	height: 280px;
+	width: 46%;
+	float: left;
+	/*padding-top: 50px;*/
+}
+.comment_text {
+	/*margin: 0;
+	padding: 7px 0px 0px;*/
+}
+.images_img {
+	border-radius: 10px;
+	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
+}
+.quotes {
+	background: url(../img/css_sprites.png) no-repeat 0 0;
+	width: 84px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top;
+}
+.white_quotes {
+	background-position: -9px -10px;
+	display: block;
+	/*padding: 0px 0px 13px;*/
+}
+
+/* --------------------ОЗЫВЫ (section class="our_breeds")-КОНЕЦ--------------*/
+
+/* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-НАЧАЛО-------------------*/
+
+/*.strip{
+clear: both;
+margin: 0px 6px 253px;
+}*/
+.animals-row {
+	width: 940px;
+	padding:15px 0px 0px;
+	
+	/* Повторяем фон по горизонтали */
+	margin: 0 auto;
+}
+
+.bg_pattern{
+	/*padding-top: 100px;
+	padding-bottom: 100px;*/
+	background-image: url(../img/onee.jpg);
+	/* Путь к фоновому рисунку */
+	background-position: left bottom;
+	/* Положение фона */
+	background-repeat: repeat;
+}
+
+.about_animals_container {
+	display: block;
+	height: 222px;
+	width: 422px;
+	float: left;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+.about_animals_photo {
+	display: block;
+	height: 280px;
+	width: 50%;
+	float: left;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+.about_animals_photo1 {
+	float: left;
+	background-color: #fff;
+}
+.about_animals_photo2 {
+	float: right;
+	background-color: #fff;
+}
+.about_animals_text1,
+.read_article {
+	/*margin: 0;*/
+}
+.about_animals_text2,
+.read_article {
+	/*margin: 0;*/
+}
+.row:after,
+.row_reviews:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/*border-radius: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
+position: absolute;*/
+
+/* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-КОНЕЦ--------------------*/
+
+.contacts{
+	width: 940px;
+	margin: 0 auto; 
+}
+
+
+
+
+/*------------------------------------------>>>Контенеры, фоны--------------КОНЕЦ */
+
+/*Текс, размеры, цвет----------------------------------->>>>>>Текст, размеры, цвет*/
+
+h2 {
+	font-family: 'Fira Sans',
+	sans-serif;
+	font-style:normal;
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing:0.05em;
+	line-height: 20px;
+}
+.reviews_title,
+.contacts_title {
+	line-height: 30px;
+}
+h3,
+.user {
+	font-family: 'Fira Sans',
+	sans-serif;
+	font-style:normal;
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing:0.05em;
+	line-height: 20px;
+}
+.user {
+	line-height: 30px;
+}
+.promo_slogan {
+	font-family: 'Roboto',
+	sans-serif;
+	font-style:normal;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing:0.05em;
+	line-height: 20px;
+	color: #737274;
+}
+p,
+.advantages,
+.nav_menu1,
+.phone,
+.reviews_time,
+.reviews_comment,
+.contact_list,
+.nav_menu2 {
+	font-family: 'Roboto',
+	sans-serif;
+	font-style:normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #737274;
+}
+.nav_link_footer {
+	color: #737274;
+}
+.contact_list {
+	color: #202020;
+}
+.reviews_comment {
+	color: #202020
+}
+.group_vk {
+	font-style:italic;
+	letter-spacing: 0.05em;
+	/*padding-top: 13px;*/
+}
+.reviews_time {
+	font-style:italic;
+	letter-spacing:0.05em;
+	display: block;
+}
+.about_animals_text {
+	color: #b8adc8;
+}
+.about_animals_text1 {
+	color: #202020;
+	letter-spacing: 0.05em;
+}
+a.look_dogs,
+.read_article,
+.contact_name {
+	font-family: 'Fira Sans',
+	sans-serif;
+	font-style:normal;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing:0.05em;
+	line-height: 30px;
+	color: #510fad;
+}
+.contact_name {
+	color: #737274;
+}
+.advantages {
+	color: #ffffff;
+}
+.about_pets_slogan {
+	color: #b8adc8;
+}
+.video_walk {
+	font-family: 'Fira Sans',
+	sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing:0.05em;
+	color: #ffec00;
+}
+
+/*
+font-family: 'Fira Sans', sfrff;
+font-family: 'Roboto', sans-serif;
+font-family: 'Fira Sans', sans-serif, uppercase;
+*/
+@font-face {
+	font-family: "Fira Sans";
+	src:url("..//fonts/Fira_Sans/FiraSans-Medium.ttf");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Roboto";
+	src:url("..//fonts/Roboto/Roboto-Regular.ttf");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Roboto";
+	src:url("..//fonts/Roboto/Roboto-Italic.ttf");
+	font-style: italic;
+	font-weight: 400;
+}
+
