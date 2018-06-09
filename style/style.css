@@ -10,6 +10,8 @@ body {
 	background-color: #ede9e0;
 }
 
+
+
 .container {
 	width: 1024px;
 	margin: 0 auto;
@@ -23,7 +25,7 @@ ul li.nav_menu {
 
 ul li a.nav_link {
 	text-decoration: none;
-	/*padding: 5px 8px;*/
+	padding: 5px 8px;
 	color: #000;
 }
 
@@ -31,7 +33,7 @@ nav.navigation {
 	display: inline-block;
 	text-align: center;
 	box-sizing: border-box;
-	/*padding: 13px 34px 0px 232px;*/
+	padding: 13px 25px 0px 173px;
 }
 
 a.phone {
@@ -44,8 +46,8 @@ a.phone {
 
 .logo_dog {
 	float: left;
-	/*margin: 10px auto;*/
-	/*padding: 10px 10px 10px 10px;*/
+	margin: 10px auto;*/
+	padding: 10px 10px 10px 10px;
 }
 .logo-menu{
 	width: 940px;
@@ -75,6 +77,7 @@ h1 {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
+	padding-top: 64px;
 }
 
 .promo_slogan {
@@ -91,16 +94,16 @@ h1 {
 	padding-top: 250px;
 }
 
-.ridge::before{
+.ridge:before{
 	content: ""; 
-	background-image: url(..//img/backround_shape1.svg);
+	background-image: url(..//img/layer1.png);
 	background-repeat: no-repeat;
 	background-position: top;
 }
 
-.ridge::after {
+.ridge:after {
 	content: "";
-	background-image: url(..//img/backround_shape2.svg);
+	background-image: url(..//img/layer2.png);
 	background-repeat: no-repeat;
 	background-position: top;
 }
@@ -320,6 +323,11 @@ h2 {
 /* --------------------НАШИ ПОРОДЫ (section class="our_breeds")-КОНЕЦ--------------*/
 
 /* --------------------ОЗЫВЫ (section class="our_breeds")-НАЧАЛО--------------*/
+
+.reviews{
+	padding-top: 112px;
+}
+
 .row_reviews {
 	margin: 0 auto;
 	width: 940px;
@@ -329,6 +337,7 @@ h2 {
 	padding-top: 145px;*/
 	text-align: center;
 	color: black;
+	margin-left: -16px;
 }
 .reviews_text {
 	display: block;
@@ -342,11 +351,13 @@ h2 {
 	height: 280px;
 	width: 46%;
 	float: left;
-	/*padding-top: 50px;*/
+	padding-top: 50px;
+	padding-left: 9px;
+
 }
 .comment_text {
-	/*margin: 0;
-	padding: 7px 0px 0px;*/
+	margin: 0;
+	padding-top: 11px;
 }
 .images_img {
 	border-radius: 10px;
@@ -365,23 +376,36 @@ h2 {
 	/*padding: 0px 0px 13px;*/
 }
 
+.user{
+	margin-top: 7px;
+    display: inline-block;
+}
+
+.link-vk{
+	text-decoration: none;
+	color: #510fad;
+}
+
+
 /* --------------------ОЗЫВЫ (section class="our_breeds")-КОНЕЦ--------------*/
 
 /* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-НАЧАЛО-------------------*/
 
-/*.strip{
-clear: both;
-margin: 0px 6px 253px;
-}*/
+.about_animals{
+	padding-top: 249px;
+}
+
+
 .animals-row {
 	width: 940px;
-	padding:15px 0px 0px;
+	padding:118px 0px;
 	
 	/* Повторяем фон по горизонтали */
 	margin: 0 auto;
 }
 
 .bg_pattern{
+	height: 500px;
 	/*padding-top: 100px;
 	padding-bottom: 100px;*/
 	background-image: url(../img/onee.jpg);
@@ -404,35 +428,89 @@ margin: 0px 6px 253px;
 	height: 280px;
 	width: 50%;
 	float: left;
-	/*padding-left: 15px;
-	padding-right: 15px;*/
+	padding-left: 48px;
+
+	
 }
 .about_animals_photo1 {
 	float: left;
 	background-color: #fff;
+	margin-left: 10px;
+	border-radius: 10px;
+  	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
+  
 }
+
 .about_animals_photo2 {
 	float: right;
 	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+  	
 }
-.about_animals_text1,
+
+.about_animals-img1{
+	border-radius: 9px 9px 0px 0px;
+}
+
+.about_animals-img2{
+	border-radius: 9px 9px 0px 0px;
+}
+
+
+.about_animals_text{
+	padding-left: 4px;
+}
+
 .read_article {
-	/*margin: 0;*/
+	margin-left: 12px;
+    margin-top: 8px;
+    display: inline-block;
+    padding-bottom: 12px;
 }
-.about_animals_text2,
-.read_article {
-	/*margin: 0;*/
+.about_animals_text1{
+	padding-left: 11px;
+    margin: 0;
+    padding-top: 10px;
 }
+
+.icon-socials{
+	background: url(../img/css_sprites.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: top;
+}
+.icon-vk{
+	background-position: -102px -95px;;
+	margin-left: 10px;
+}
+
+.icon-fb{
+	background-position: -111px -10px;
+	margin-left: 10px;
+}
+
+.icon-inst{
+	background-position: -10px -95px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
 .row:after,
 .row_reviews:after {
 	content: "";
 	clear: both;
 	display: table;
 }
-/*border-radius: 10px;
-background-color: rgb(255, 255, 255);
-box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
-position: absolute;*/
+
+
 
 /* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-КОНЕЦ--------------------*/
 
@@ -513,8 +591,11 @@ p,
 .group_vk {
 	font-style:italic;
 	letter-spacing: 0.05em;
-	/*padding-top: 13px;*/
+	padding-top: 8px;
+    padding-left: 5px;
+
 }
+
 .reviews_time {
 	font-style:italic;
 	letter-spacing:0.05em;
