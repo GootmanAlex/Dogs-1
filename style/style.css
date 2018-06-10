@@ -5,12 +5,9 @@
 
 /*---------------------------------------Логотип и меню навигации ---Начало---*/
 
-
 body {
 	background-color: #ede9e0;
 }
-
-
 
 .container {
 	width: 1024px;
@@ -21,6 +18,7 @@ body {
 ul li.nav_menu {
 	display: inline-block;
 	list-style: none;
+	padding-left: 8px;
 }
 
 ul li a.nav_link {
@@ -29,11 +27,19 @@ ul li a.nav_link {
 	color: #000;
 }
 
+.nav_link.nav-act {
+	color: #510fad;
+}
+
+.nav_link:hover {
+	color: #510fad;
+}
+
 nav.navigation {
 	display: inline-block;
 	text-align: center;
 	box-sizing: border-box;
-	padding: 13px 25px 0px 173px;
+	padding: 12px 22px 0px 162px;
 }
 
 a.phone {
@@ -46,43 +52,55 @@ a.phone {
 
 .logo_dog {
 	float: left;
-	margin: 10px auto;*/
-	padding: 10px 10px 10px 10px;
+	margin: 13px auto;
+	margin-top: 7px;
 }
-.logo-menu{
+
+.logo-menu {
 	width: 940px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
+
 
 /*---------------------------------------Логотип и меню навигации ---Конец---*/
 
 .promo_foto {
 	background-image: url(../img/dog.png);
 	width: 100px;
-  	height: 100px;
- 	 margin: 10px;
-  	display: inline-block;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
 }
 
-.promo{
+.promo {
 	width: 940px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
+
 
 /*---------------------------------------H1 and p Питомник ---Началоа---*/
 
 h1 {
-	padding-left: 320px;
+	padding-left: 318px;
 	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
-	padding-top: 64px;
+	padding-top: 79px;
 	line-height: 60px;
 }
 
 .promo_slogan {
-	padding-left: 320px;
+	padding-left: 325px;
+	padding-top: 1px;
+}
+
+.line {
+	border-left: 2px solid #510fad;
+	margin-left: 318px;
+	padding-left: 10px;
+	display: inline-block;
+	margin-top: 9px;
 }
 
 
@@ -91,15 +109,23 @@ h1 {
 
 /* --------------------О ПИТОМНИКЕ --------------------НАЧАЛО---------*/
 
-.about_pets{
-	padding-top: 250px;
+.about_pets {
+	padding-top: 257px;
 }
 
-.ridge:before{
-	content: ""; 
+.ridge:before {
+	content: "";
 	background-image: url(..//img/layer1.png);
 	background-repeat: no-repeat;
 	background-position: top;
+	background-size: contain;
+	width: 100%;
+	height: 329px;
+	display: inline-block;
+	z-index: 10;
+	position: absolute;
+	left: 0;
+	top: -77px;
 }
 
 .ridge:after {
@@ -107,6 +133,14 @@ h1 {
 	background-image: url(..//img/layer2.png);
 	background-repeat: no-repeat;
 	background-position: top;
+	/* display: inline-block; */
+	z-index: 10;
+	position: absolute;
+	left: 0;
+	bottom: -179px;
+	background-size: contain;
+	width: 100%;
+	height: 180px;
 }
 
 .container_shape {
@@ -114,16 +148,18 @@ h1 {
 	background-color: #510fad;
 	text-align: center;
 	margin: 0 auto;
+	position: relative;
+	padding-top: 89px;
 }
 
 .container_wrapper {
 	width: 940px;
 	margin: 0 auto;
+	padding-bottom: 69px;
 }
 
 .about_row {
 	font-size: 0;
-	/*margin-top: 17px;*/
 }
 
 .about_wrapper {
@@ -136,7 +172,7 @@ h1 {
 	display: inline-block;
 	text-align: left;
 	padding-left: 55px;
-    padding-top: 2px;
+	padding-top: 2px;
 }
 
 h2 {
@@ -147,7 +183,7 @@ h2 {
 	float: left;
 	width: 470px;
 	padding-top: 11px;
-    margin-left: -68px;
+	margin-left: -68px;
 }
 
 .text_video {
@@ -159,20 +195,26 @@ h2 {
 	padding: 2px 0px 5px 5px;
 }
 
-.advantages{
+.advantages {
 	padding: 62px 90px;
 }
 
 .video_walk {
 	padding-left: 72px;
-    float: left;
-    margin-top: -22px;
-    text-decoration: none;
+	float: left;
+	margin-top: -22px;
+	text-decoration: none;
+}
+
+.video_walk:hover {
+	color: #737274;
+}
+
+.video_walk:hover i {
+	background-position: -210px -94px;
 }
 
 .promo_img_dog {
-	/*margin: 0;
-	padding: 0;*/
 	display: line;
 }
 
@@ -185,40 +227,15 @@ h2 {
 }
 
 .yellow-arrow {
-	background-position: -145px -94px;
-}
-
-/*
-.name_shape, .about_pets_slogan, .advantages, .promo_img_dog, .video_walk{
-	display: block;
-  	
-}
-
-.promo_img_dog{
-	/*margin: 25px 0 0-20px;*/
-
-
+	background-position: -154px -104px;
 }
 
 
-.advantages{
+.advantages {
 	padding: 62px 90px;
 }
 
-/*.video_walk{
-	/*margin: 0px -240px 0px 0px;*/
 
-
-
-/*.advantages_text{
-	padding: 5px 5px 5px 5px;
-}
-
-.shape_and_slogan{
-	text-align: left;
-	/*padding: 200px 5px 0px 400px;*/
-
-}
 .name_shape {
 	color: white;
 }
@@ -226,14 +243,13 @@ h2 {
 /* --------------------О ПИТОМНИКЕ --------------------Конец----------------------*/
 
 /* --------------------НАШИ ПОРОДЫ (section class="our_breeds")-НАЧАЛО--------------*/
-
-.our_breeds{
-	padding-top: 268px;
+.our_breeds {
+	padding-top: 200px;
 }
 
-.breeds{
+.breeds {
 	width: 940px;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 .breeds_heading {
@@ -241,59 +257,60 @@ h2 {
 	margin-bottom: 87px;
 	color: black;
 }
+
 .container_card_one {
 	width: 50%;
 	float: left;
-	/*margin-top: 49px;*/
 }
+
 .container_card_two {
 	width: 50%;
 	float: left;
 	/*margin-top: 49px;*/
 }
+
 .dogs_img {
 	border-radius: 70px;
 	float: left;
 	margin-top: -4px;
 }
+
 .veiv_dog_text {
 	display: inline-block;
 	padding-left: 19px;
-    margin: 0;
-    margin-top: -3px;
+	margin: 0;
+	margin-top: -3px;
 }
-.view_dog {
-	/*padding: 5px 5px 5px 45px;*/
-}
+
 .view_dog1 {
 	float: left;
 }
+
 .view_dog2 {
 	float: right;
 }
 
-.one-card{
+.one-card {
 	margin-top: -12px;
-    display: inline-block;
+	display: inline-block;
 }
 
-.two-card{
+.two-card {
 	margin-top: 55px;
-   	display: inline-block;
+	display: inline-block;
 }
 
-.three-card{
+.three-card {
 	margin-top: -12px;
-    display: inline-block;
-    padding-left: 11px;
+	display: inline-block;
+	padding-left: 11px;
 }
 
-.four-card{
+.four-card {
 	margin-top: 55px;
-    display: inline-block;
-    padding-left: 11px;
+	display: inline-block;
+	padding-left: 11px;
 }
-
 
 .icon {
 	background: url(../img/css_sprites.png) no-repeat 0 0;
@@ -302,21 +319,36 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 }
+
 .blue-arrow {
-	background-position: -107px -47px;
+	background-position: -116px -57px;
 	margin-left: 19px;
 }
+
+.blue-arrow:hover {
+	background-position: -218px -94px;
+	margin-left: 19px;
+}
+
+.look_dogs:hover i {
+	background-position: -218px -93px;
+}
+
 .look_dogs {
 	padding-left: 20px;
 	display: inline-block;
 	text-decoration: none;
 }
 
-.alignment-1{
+.look_dogs:hover {
+	color: #737274;
+}
+
+.alignment-1 {
 	padding-top: 28px;
 }
 
-.alignment-2{
+.alignment-2 {
 	margin-top: -12px;
 	float: left;
 }
@@ -324,29 +356,27 @@ h2 {
 /* --------------------НАШИ ПОРОДЫ (section class="our_breeds")-КОНЕЦ--------------*/
 
 /* --------------------ОЗЫВЫ (section class="our_breeds")-НАЧАЛО--------------*/
-
-.reviews{
-	padding-top: 112px;
+.reviews {
+	padding-top: 110px;
 }
 
 .row_reviews {
 	margin: 0 auto;
 	width: 940px;
 }
+
 .reviews_title {
-	/*margin-left: 75px;
-	padding-top: 145px;*/
 	text-align: center;
 	color: black;
 	margin-left: -16px;
 }
+
 .reviews_text {
 	display: block;
 	width: 50%;
 	float: left;
-	/*padding-left: 15px;
-	padding-right: 15px;*/
 }
+
 .images_photo {
 	display: block;
 	height: 280px;
@@ -354,16 +384,18 @@ h2 {
 	float: left;
 	padding-top: 50px;
 	padding-left: 9px;
-
 }
+
 .comment_text {
 	margin: 0;
 	padding-top: 11px;
 }
+
 .images_img {
 	border-radius: 10px;
 	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
 }
+
 .quotes {
 	background: url(../img/css_sprites.png) no-repeat 0 0;
 	width: 84px;
@@ -371,48 +403,39 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 }
+
 .white_quotes {
-	background-position: -9px -10px;
+	background-position: -17px -18px;
 	display: block;
 	/*padding: 0px 0px 13px;*/
 }
 
-.user{
+.user {
 	margin-top: 7px;
-    display: inline-block;
+	display: inline-block;
 }
 
-.link-vk{
+.link-vk {
 	text-decoration: none;
 	color: #510fad;
 }
 
-
 /* --------------------ОЗЫВЫ (section class="our_breeds")-КОНЕЦ--------------*/
 
 /* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-НАЧАЛО-------------------*/
-
-.about_animals{
+.about_animals {
 	padding-top: 249px;
 }
-
-
 .animals-row {
 	width: 940px;
 	padding:118px 0px;
-	
-	/* Повторяем фон по горизонтали */
 	margin: 0 auto;
 }
 
-.bg_pattern{
+.bg_pattern {
 	height: 500px;
-	/*padding-top: 100px;
-	padding-bottom: 100px;*/
-	background-image: url(../img/onee.jpg);
-	/* Путь к фоновому рисунку */
+	background-image: url(../img/BGP.png);
 	background-position: left bottom;
-	/* Положение фона */
 	background-repeat: repeat;
 }
 
@@ -421,25 +444,30 @@ h2 {
 	height: 222px;
 	width: 422px;
 	float: left;
-	/*padding-left: 15px;
-	padding-right: 15px;*/
 }
+
 .about_animals_photo {
 	display: block;
 	height: 280px;
 	width: 50%;
 	float: left;
 	padding-left: 48px;
-
-	
 }
+
 .about_animals_photo1 {
 	float: left;
 	background-color: #fff;
 	margin-left: 10px;
 	border-radius: 10px;
-  	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
-  
+	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.about_animals_photo1:hover {
+	float: left;
+	background-color: #fff;
+	margin-left: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
 }
 
 .about_animals_photo2 {
@@ -447,68 +475,100 @@ h2 {
 	background-color: #fff;
 	border-radius: 10px;
 	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
-  	
 }
 
-.about_animals-img1{
+.about_animals_photo2:hover {
+	float: right;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
+}
+
+.about_animals-img1 {
 	border-radius: 9px 9px 0px 0px;
 }
 
-.about_animals-img2{
+.about_animals-img2 {
 	border-radius: 9px 9px 0px 0px;
 }
 
-
-.about_animals_text{
+.about_animals_text {
 	padding-left: 4px;
 }
 
 .read_article {
 	margin-left: 12px;
-    margin-top: 8px;
-    display: inline-block;
-    padding-bottom: 12px;
-}
-.about_animals_text1{
-	padding-left: 11px;
-    margin: 0;
-    padding-top: 10px;
+	margin-top: 8px;
+	display: inline-block;
+	padding-bottom: 12px;
+	text-decoration: none;
 }
 
-.icon-socials{
+.about_animals_text1 {
+	padding-left: 11px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.icon-socials {
 	background: url(../img/css_sprites.png) no-repeat 0 0;
 	width: 26px;
 	height: 26px;
 	display: inline-block;
 	vertical-align: top;
 }
-.icon-vk{
-	background-position: -102px -95px;;
+
+.icon-vk {
+	background-position: -112px -105px;
 	margin-left: 10px;
 }
 
-.icon-fb{
-	background-position: -111px -10px;
+.icon-vk:hover {
+	background-position:-223px -56px;
 	margin-left: 10px;
 }
 
-.icon-inst{
-	background-position: -10px -95px;
+.icon-fb {
+	background-position: -121px -20px;
 	margin-left: 10px;
 }
 
-.socials{
+.icon-fb:hover {
+	background-position:-148px -161px;
+	margin-left: 10px;
+}
+
+.icon-inst {
+	background-position: -20px -105px;
+	margin-left: 10px;
+}
+
+.icon-inst:hover {
+	background-position: -223px -10px;
+	margin-left: 10px;
+}
+
+.socials {
 	padding-top: 31px;
-    margin-left: -9px;
+	margin-left: -9px;
+}
+
+.iconas:hover {
+	color: #b8adc8;
 }
 
 .about_blue-arrow {
-    background-position: -107px -47px;
-    margin-left: 8px;
+	background-position: -116px -57px;
+	margin-left: 8px;
 }
 
-
-
+.wrapper {
+	background-image: url(../img/dog.png);
+	background-repeat: no-repeat;
+	width: 1024px;
+	margin: 0 auto;
+	background-position: 18px -3px
+}
 
 .row:after,
 .row_reviews:after {
@@ -517,75 +577,57 @@ h2 {
 	display: table;
 }
 
-
-
 /* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-КОНЕЦ--------------------*/
 
-
-
 /* --------КОНТАКТЫ (contacts)---------------------НАЧАЛО--------------------*/
-
-
-.contacts{
+.contacts {
 	width: 940px;
-	margin: 0 auto; 
+	margin: 0 auto;
 	padding-top: 56px;
 }
 
-.contacts_title_wrapper{
+.contacts_title_wrapper {
 	margin-left: -39px;
 }
 
-.contacts_title{
+.contacts_title {
 	color: #202020;
 }
-
-.one{
+.one {
 	float: left;
 	width: 50%;
-    margin-left: -39px;
-    padding-top: 8px;
+	margin-left: -39px;
+	padding-top: 8px;
 }
-
-.two{
+.two {
 	float: left;
 	width: 50%;
 	padding-left: 6px;
-    padding-top: 7px;
+	padding-top: 7px;
 }
-
-.two a{
+.two a {
 	text-decoration: none;
 }
-
-.contact_list{
+.contact_list {
 	display: block;
 }
-
-.contacts_time{
+.contacts_time {
 	padding-top: 18px;
 }
-
-.contacts_phone{
+.contacts_phone {
 	padding-top: 18px;
 }
-
 
 /* --------КОНТАКТЫ (contacts)---------------------КОНЕЦ----------------------*/
 
-
-
-
 /* --------ПОДВАЛ (footer)---------------------НАЧАЛО-------------------------*/
-
-.page_footer{
+.page_footer {
 	padding-top: 130px;
 }
 
-.container_footer{
+.container_footer {
 	width: 1024px;
 	margin: 0 auto;
-
 }
 
 .footer_wrapper {
@@ -593,60 +635,82 @@ h2 {
 	margin: 0 auto;
 }
 
-ul.nav_menu2{
+ul.nav_menu2 {
 	margin: 0;
 	padding: 6px 0px 83px 3px;
 }
 
-ul.nav_menu2 li{
+ul.nav_menu2 li {
 	display: inline;
 	margin-right: 23px;
 }
 
-ul.nav_menu2 a{
+ul.nav_menu2 a {
 	text-decoration: none;
-
 }
 
-.navagation_footer{
+.navagation_footer {
 	float: left;
 	padding-top: 6px;
 }
 
-.socials_footer{
+.socials_footer {
 	float: right;
 	padding-top: 12px;
-    margin-right: -3px;
+	margin-right: -3px;
 }
 
-.icon-footer{
+.icon-footer {
 	background: url(../img/css_sprites.png) no-repeat 0 0;
 	width: 26px;
 	height: 26px;
 	display: inline-block;
 	vertical-align: top;
 }
-.icon-vk-footer{
-	background-position: -157px -56px;
+
+.icon-vk-footer {
+	background-position: -167px -66px;
 	margin-left: 10px;
 }
 
-.icon-fb-footer{
-	background-position: -157px -10px;
+.icon-vk-footer:hover {
+	background-position: -102px -161px;
 	margin-left: 10px;
 }
 
-.icon-inst-footer{
-	background-position: -56px -95px;
+.icon-fb-footer {
+	background-position: -167px -20px;
 	margin-left: 10px;
 }
 
-hr{
+.icon-fb-footer:hover {
+	background-position: -10px -161px;
+	margin-left: 10px;
+}
+
+.icon-inst-footer {
+	background-position: -66px -105px;
+	margin-left: 10px;
+}
+
+.icon-inst-footer:hover {
+	background-position: -56px -161px;
+	margin-left: 10px;
+}
+
+hr {
 	border: none;
 	background-color: #737274;
 	height: 1px;
 	margin-top: -16px;
-    
+}
+
+.nav_link_footer.foot-act {
+	color: #510fad;
+}
+
+.nav_link_footer:hover {
+	color: #510fad;
 }
 
 /* --------ПОДВАЛ (footer)---------------------КОНЕЦ--------------------------*/
@@ -654,7 +718,6 @@ hr{
 /*------------------------------------------>>>Контенеры, фоны--------------КОНЕЦ */
 
 /*Текс, размеры, цвет----------------------------------->>>>>>Текст, размеры, цвет*/
-
 h2 {
 	font-family: 'Fira Sans',
 	sans-serif;
@@ -664,10 +727,12 @@ h2 {
 	letter-spacing:0.05em;
 	line-height: 20px;
 }
+
 .reviews_title,
 .contacts_title {
 	line-height: 30px;
 }
+
 h3,
 .user {
 	font-family: 'Fira Sans',
@@ -679,19 +744,22 @@ h3,
 	line-height: 20px;
 	padding-top: 3px;
 }
+
 .user {
 	line-height: 30px;
 }
+
 .promo_slogan {
 	font-family: 'Roboto',
 	sans-serif;
 	font-style:normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 14px;
 	letter-spacing:0.05em;
 	line-height: 20px;
 	color: #737274;
 }
+
 p,
 .advantages,
 .nav_menu1,
@@ -708,21 +776,24 @@ p,
 	line-height: 30px;
 	color: #737274;
 }
+
 .nav_link_footer {
 	color: #737274;
 }
+
 .contact_list {
 	color: #202020;
 }
+
 .reviews_comment {
 	color: #202020
 }
+
 .group_vk {
 	font-style:italic;
 	letter-spacing: 0.05em;
 	padding-top: 8px;
-    padding-left: 5px;
-
+	padding-left: 5px;
 }
 
 .reviews_time {
@@ -730,13 +801,16 @@ p,
 	letter-spacing:0.05em;
 	display: block;
 }
+
 .about_animals_text {
 	color: #b8adc8;
 }
+
 .about_animals_text1 {
 	color: #202020;
 	letter-spacing: 0.05em;
 }
+
 a.look_dogs,
 .read_article,
 .contact_name {
@@ -749,16 +823,20 @@ a.look_dogs,
 	line-height: 30px;
 	color: #510fad;
 }
+
 .contact_name {
 	color: #737274;
 }
+
 .advantages {
 	color: #ffffff;
 }
+
 .about_pets_slogan {
 	color: #b8adc8;
 	padding: 2px 1px;
 }
+
 .video_walk {
 	font-family: 'Fira Sans',
 	sans-serif;
@@ -781,12 +859,14 @@ font-family: 'Fira Sans', sans-serif, uppercase;
 	font-style: normal;
 	font-weight: 500;
 }
+
 @font-face {
 	font-family: "Roboto";
 	src:url("..//fonts/Roboto/Roboto-Regular.ttf");
 	font-style: normal;
 	font-weight: 400;
 }
+
 @font-face {
 	font-family: "Roboto";
 	src:url("..//fonts/Roboto/Roboto-Italic.ttf");
