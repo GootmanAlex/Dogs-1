@@ -496,9 +496,15 @@ h2 {
 	margin-left: 10px;
 }
 
+.socials{
+	padding-top: 31px;
+    margin-left: -9px;
+}
 
-
-
+.about_blue-arrow {
+    background-position: -107px -47px;
+    margin-left: 8px;
+}
 
 
 
@@ -514,13 +520,131 @@ h2 {
 
 /* --------ВСЕ О ЖИВОТНЫХ (about_animals_container)-КОНЕЦ--------------------*/
 
+
+
+/* --------КОНТАКТЫ (contacts)---------------------НАЧАЛО--------------------*/
+
+
 .contacts{
 	width: 940px;
 	margin: 0 auto; 
+	padding-top: 56px;
+}
+
+.contacts_title_wrapper{
+	margin-left: -39px;
+}
+
+.one{
+	float: left;
+	width: 50%;
+    margin-left: -39px;
+    padding-top: 8px;
+}
+
+.two{
+	float: left;
+	width: 50%;
+	padding-left: 6px;
+    padding-top: 7px;
+}
+
+.two a{
+	text-decoration: none;
+}
+
+.contact_list{
+	display: block;
+}
+
+.contacts_time{
+	padding-top: 18px;
+}
+
+.contacts_phone{
+	padding-top: 18px;
 }
 
 
+/* --------КОНТАКТЫ (contacts)---------------------КОНЕЦ----------------------*/
 
+
+
+
+/* --------ПОДВАЛ (footer)---------------------НАЧАЛО-------------------------*/
+
+.page_footer{
+	padding-top: 130px;
+}
+
+.container_footer{
+	width: 1024px;
+	margin: 0 auto;
+
+}
+
+.footer_wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+
+ul.nav_menu2{
+	margin: 0;
+	padding: 6px 0px 83px 3px;
+}
+
+ul.nav_menu2 li{
+	display: inline;
+	margin-right: 23px;
+}
+
+ul.nav_menu2 a{
+	text-decoration: none;
+	
+}
+
+.navagation_footer{
+	float: left;
+	padding-top: 6px;
+}
+
+.socials_footer{
+	float: right;
+	padding-top: 12px;
+    margin-right: -3px;
+}
+
+.icon-footer{
+	background: url(../img/css_sprites.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: top;
+}
+.icon-vk-footer{
+	background-position: -157px -56px;
+	margin-left: 10px;
+}
+
+.icon-fb-footer{
+	background-position: -157px -10px;
+	margin-left: 10px;
+}
+
+.icon-inst-footer{
+	background-position: -56px -95px;
+	margin-left: 10px;
+}
+
+hr{
+	border: none;
+	background-color: #737274;
+	height: 1px;
+	margin-top: -16px;
+    
+}
+
+/* --------ПОДВАЛ (footer)---------------------КОНЕЦ--------------------------*/
 
 /*------------------------------------------>>>Контенеры, фоны--------------КОНЕЦ */
 
