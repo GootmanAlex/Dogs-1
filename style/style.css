@@ -78,6 +78,7 @@ h1 {
 	font-weight: 500;
 	font-size: 48px;
 	padding-top: 64px;
+	line-height: 60px;
 }
 
 .promo_slogan {
@@ -535,6 +536,10 @@ h2 {
 	margin-left: -39px;
 }
 
+.contacts_title{
+	color: #202020;
+}
+
 .one{
 	float: left;
 	width: 50%;
@@ -600,7 +605,7 @@ ul.nav_menu2 li{
 
 ul.nav_menu2 a{
 	text-decoration: none;
-	
+
 }
 
 .navagation_footer{
