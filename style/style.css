@@ -701,8 +701,9 @@ ul.nav_menu2 a {
 hr {
 	border: none;
 	background-color: #737274;
-	height: 1px;
+	height: 2px;
 	margin-top: -16px;
+	opacity: 0.2;
 }
 
 .nav_link_footer.foot-act {
