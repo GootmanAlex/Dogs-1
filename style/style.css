@@ -321,17 +321,17 @@ h2 {
 }
 
 .blue-arrow {
-	background-position: -116px -57px;
-	margin-left: 19px;
+	background-position: -116px -58px;
+	margin-left: 4px;
 }
 
 .blue-arrow:hover {
 	background-position: -218px -94px;
-	margin-left: 19px;
+	margin-left: 4px;
 }
 
 .look_dogs:hover i {
-	background-position: -218px -93px;
+	background-position: -218px -94px;
 }
 
 .look_dogs {
