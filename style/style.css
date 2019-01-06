@@ -155,7 +155,7 @@ h1 {
 .container_wrapper {
 	width: 940px;
 	margin: 0 auto;
-	padding-bottom: 69px;
+	padding-bottom: 116px;
 }
 
 .about_row {
@@ -181,13 +181,15 @@ h2 {
 
 .promo_img {
 	float: left;
-	width: 470px;
-	padding-top: 11px;
-	margin-left: -68px;
+	padding-top: 58px;
+}
+
+.promo_img_dog{
+	box-shadow: 0px 20px 45px 5px rgba(0, 0, 0, 0.5);
 }
 
 .text_video {
-	float: right;
+	float: left;
 	text-align: left;
 }
 
@@ -196,13 +198,14 @@ h2 {
 }
 
 .advantages {
-	padding: 62px 90px;
+	padding: 0;
+    padding-top: 61px;
+    padding-left: 38px;
+    padding-bottom: 41px;
 }
 
 .video_walk {
-	padding-left: 72px;
-	float: left;
-	margin-top: -22px;
+	padding-left: 21px;
 	text-decoration: none;
 }
 
@@ -214,9 +217,6 @@ h2 {
 	background-position: -210px -94px;
 }
 
-.promo_img_dog {
-	display: line;
-}
 
 .yellow-icon {
 	background: url(../img/css_sprites.png) no-repeat 0 0;
@@ -229,12 +229,6 @@ h2 {
 .yellow-arrow {
 	background-position: -154px -104px;
 }
-
-
-.advantages {
-	padding: 62px 90px;
-}
-
 
 .name_shape {
 	color: white;
@@ -875,3 +869,8 @@ font-family: 'Fira Sans', sans-serif, uppercase;
 	font-weight: 400;
 }
 
+
+
+
+
+  
